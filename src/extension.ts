@@ -117,11 +117,11 @@ export function activate(context: vscode.ExtensionContext) {
         const apiKey = await vscode.window.showInputBox({
             prompt: 'Enter your Claude API Key',
             password: true,
-            placeHolder: 'sk-ant-...',
+            placeHolder: 'sk-ant-... or sk-...',
             ignoreFocusOut: true,
             validateInput: (value) => {
                 if (!value) return 'API key is required';
-                if (!value.startsWith('sk-ant-')) return 'Invalid API key format (should start with sk-ant-)';
+                if (!value.startsWith('sk-')) return 'Invalid API key format (should start with sk-)';
                 return null;
             }
         });

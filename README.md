@@ -96,7 +96,7 @@ The extension uses Claude AI for intelligent code analysis. Without an API key, 
 2. Sign up or log in
 3. Navigate to API Keys
 4. Click "Create Key"
-5. Copy the key (starts with `sk-ant-`)
+5. Copy the key (starts with `sk-`)
 
 ### 2. Set GitHub Token (Optional, for PR Features)
 
