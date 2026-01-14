@@ -150,8 +150,8 @@ To see related pull requests, you need a GitHub Personal Access Token.
 | `What is the Code: Analyze Current File` | Analyze the entire file |
 | `What is the Code: Set Claude API Key` | Securely store Claude API key |
 | `What is the Code: Set GitHub Token` | Securely store GitHub token |
-| `What is the Code: Clear Cache` | Clear all cached analysis results |
-| `What is the Code: Refresh` | Re-analyze with fresh data |
+| `What is the Code: Clear Analysis Cache` | Clear all cached analysis results |
+| `What is the Code: Refresh Analysis` | Re-analyze with fresh data |
 
 ---
 
